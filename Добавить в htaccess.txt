@@ -1,0 +1,7 @@
+Попробуйте в .htaccess добавить
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, PATCH"
+Header set Access-Control-Allow-Headers "Authorization"
+Header set Content-Type "application/json"
+</IfModule>
